@@ -84,7 +84,7 @@ Doit afficher dans la console :
 Trouvez l'élément de classe CSS `carousel__button--next` :
 
 ```js
-nextButton = document.querySelector("carousel__button--next");
+nextButton = document.querySelector("carousel__button--next ");
 ```
 
 Doit afficher dans la console :
