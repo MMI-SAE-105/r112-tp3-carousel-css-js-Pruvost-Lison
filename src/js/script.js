@@ -17,3 +17,9 @@ if (carousel) {
         carousel.scrollBy({ left: +260, behavior: "smooth" })
     });
 }
+
+// Sélectionner le premier élément du carousel
+const premierItem = document.querySelector(".carousel__item");
+
+// Obtenir la largeur du premier élément
+const scrollAmount = premierItem.clientWidth;
